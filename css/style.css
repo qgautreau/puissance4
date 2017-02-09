@@ -1,7 +1,15 @@
 #board {
-    border: 1px solid blue;
+    display: flex;
+    flex-wrap: wrap;
+    width: 701px;
+    background-color: blue;
 }
 
 .grid {
-    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    padding: 1px;
+    border: 1px solid blue;
+    border-radius: 50%;
 }
