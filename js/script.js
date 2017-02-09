@@ -6,5 +6,8 @@ for (var i =0; i < rowsNumber; i++) {
     var gridElement = document.createElement("table");
     gridElement.className = "grid";
     boardElement.appendChild(gridElement);
+    gridElement.addEventListener("click", function (){
+        this.style.backgroundColor = "red";
+    });
     }
 }
