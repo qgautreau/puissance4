@@ -1,15 +1,23 @@
 #board {
     display: flex;
     flex-wrap: wrap;
-    width: 701px;
+    width: 731px;
     background-color: blue;
 }
 
-.grid {
+.case {
     width: 100px;
     height: 100px;
     background-color: white;
     padding: 1px;
     border: 1px solid blue;
     border-radius: 50%;
+}
+
+.playerone {
+    background-color: red;
+}
+
+.playertwo {
+    background-color: yellow;
 }
